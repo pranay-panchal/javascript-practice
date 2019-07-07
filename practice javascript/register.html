@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register here</title>
+    <!-- <style>
+        h1 {
+            color: gray;
+        }
+        label {
+            color: crimson;
+        }
+    </style> -->
+
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
+</head>
+
+<body>
+    <p>
+        <h1>Register Here!</h1>
+        <pv>
+            <form aria-busy="true">
+                <p>
+                    <label for="firstname">First Name: </label>
+                    <input type="text" name="firstname" id="firstname" placeholder="enter first name" required>
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" name="lastname" id="lastname" placeholder="enter last name" required>
+                </p>
+                <p>
+                    <label for="male">Male: </label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female: </label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="others">Others: </label>
+                    <input type="radio" name="gender" id="others" value="others">
+                </p>
+                <p>
+                    <label for="email">Email id: </label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" pattern=".{5,10}" size="13" required
+                        title="5 to 10 characters only">
+                </p>
+                <p>
+                    <label for="dob">Birthday: </label>
+                    <select name="day" id="day">
+                        <option value="">day</option>
+                        <option value="1">01</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="">month</option>
+                        <option value="1">January</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="">Year</option>
+                        <option value="1">1995</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="agree">I Agree to all the terms and conditions </label>
+                    <input type="checkbox" name="agree" id="agree" value="yes" required>
+                </p>
+                <p>
+                    <input type="submit" value="submit">
+                </p>
+            </form>
+</body>
+
+</html>
