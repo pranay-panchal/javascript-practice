@@ -1,0 +1,23 @@
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    /* background-color: pink; */
+    margin: auto;
+}
+
+.horizontal {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.vertical {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td:hover {
+    border: 1px solid grey;
+}
