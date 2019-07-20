@@ -1,0 +1,20 @@
+/* selector using tag */
+h1 {
+    border: 1px solid red;
+}
+
+li {
+    border: 2px solid blue;
+}
+
+/* selector using id */
+#special {
+    background-color: orange;
+    text-decoration: line-through;
+}
+
+/* selector using class  */
+
+.cls-selector {
+    background-color: blueviolet;
+}
