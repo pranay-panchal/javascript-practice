@@ -1,0 +1,19 @@
+body {
+	color: red;
+}
+
+ul {
+	color: purple;
+}
+
+li {
+	color: teal;
+}
+
+.special {
+	color: chocolate;
+}
+
+#one {
+	color: chartreuse;
+}
